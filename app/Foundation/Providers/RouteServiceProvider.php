@@ -143,9 +143,9 @@ class RouteServiceProvider extends ServiceProvider
         $middleware = [
             EncryptCookies::class,
             AddQueuedCookiesToResponse::class,
-            VerifyCsrfToken::class,
             StartSession::class,
             ShareErrorsFromSession::class,
+            VerifyCsrfToken::class,
             SubstituteBindings::class,
         ];
 
