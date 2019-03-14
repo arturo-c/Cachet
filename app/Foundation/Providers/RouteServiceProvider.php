@@ -145,7 +145,6 @@ class RouteServiceProvider extends ServiceProvider
             AddQueuedCookiesToResponse::class,
             StartSession::class,
             ShareErrorsFromSession::class,
-            VerifyCsrfToken::class,
             SubstituteBindings::class,
         ];
 
